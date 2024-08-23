@@ -3,4 +3,4 @@
         materialized='table'
     )
  }}
- SELECT * FROM RAW_DB.GLOBALMART.PRODUCT
+ SELECT * FROM RAW_DB.GLOBALMART.PRODUCTS
