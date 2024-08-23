@@ -1,0 +1,14 @@
+version: 2
+sources:
+  - name: src
+    description:  Src is source to snowflake database ,
+    database: raw_db
+    schema: globalmart
+    tables:
+      - name: orders
+        description:  raw orders  table     
+      - name: customers
+        description:  raw customers  table    
+      - name: products
+        description:  raw products  table    	   
+  
