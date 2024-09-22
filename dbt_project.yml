@@ -44,3 +44,8 @@ models:
       +materialized: view
    reporting:
       +materialized: table
+seeds:
+  retail_project: 
+    +delimiter: "|" # pipe delimiter for seeds "|"
+    comma:
+      +delimiter: "," # delimiter for seed_a will be ","
